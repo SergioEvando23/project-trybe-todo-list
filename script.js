@@ -20,5 +20,7 @@ orderList.addEventListener('click', (event) => {
     event.target.classList.toggle('selected');
 })
 
-
+orderList.addEventListener('dblclick', (event) => {
+    event.target.classList.toggle('completed');
+})
 
