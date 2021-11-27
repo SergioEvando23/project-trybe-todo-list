@@ -8,3 +8,7 @@ button.addEventListener('click', () =>{
     itemList.innerText = input.value;
     input.value = "";
 });
+
+orderList.addEventListener('click', (event) => {
+    event.target.classList.toggle('selected');
+})
