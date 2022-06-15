@@ -2,16 +2,89 @@
   margin: 0;
   padding: 0;
 }
- 
+
 body {
-  padding-left: 2em;
-  padding-top: 1em;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 18px;
+  text-align: center;
+  background-color: rgb(202, 202, 202);
+}
+
+li {
+  list-style-type: none;
+  font-weight:600;
 }
 
 .selected {
-  background-color: rgb(128, 128, 128);
+  background-color: rgb(71, 71, 71, 0.8);
 }
 
 .completed {
-  text-decoration: line-through solid rgb(0, 0, 0);
+  text-decoration: line-through solid rgb(255, 0, 0);
+  opacity: 1;
+}
+
+.sessao-tarefa {
+  background-color: rgb(71, 71, 71, 0.8);
+  padding: 1em;
+  display: flex;
+  justify-content: space-around;
+  opacity: 1;
+}
+
+#texto-tarefa {
+  opacity: 1;
+  width: 80vw;
+  height: 2.1vh;
+  padding: 10px;
+  border-radius: 25px;
+  font-size: 18px;
+  color: rgb(49, 49, 49);
+  box-shadow: 3px 5px 18px rgb(0, 0, 0);
+  border: none;
+}
+
+#criar-tarefa {
+  opacity: 1;
+  border-radius: 25px;
+  padding: 10px;
+  box-shadow: 3px 5px 18px rgb(27, 27, 27);
+  font-weight: 600;
+  border: none;
+}
+
+#funcionamento {
+  font-size: 12px;
+  padding: 8px;
+}
+
+#Cabecalho {
+  font-size: 32.8px;
+}
+
+.lista-tarefas-section {
+  background: rgba(107, 107, 107, 0.4);
+  box-shadow: 8px 8px 26px rgb(0, 0, 0);
+  width: 50vw;
+  height: 50vh;
+  border-radius: 10px;
+  margin: 10vh auto;
+  padding: 10px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.lista-tarefas-section::-webkit-scrollbar {
+  width: 12px;               /* width of the entire scrollbar */
+}
+
+.lista-tarefas-section::-webkit-scrollbar-track {
+  border-radius: 15px;
+  background: rgb(199, 199, 199);        /* color of the tracking area */
+}
+
+.lista-tarefas-section::-webkit-scrollbar-thumb {
+  background-color: rgba(39, 38, 38, 0.8);
+  border-radius: 15px;
+  border: 2px solid rgb(100, 100, 100);
 }
