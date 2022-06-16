@@ -1,6 +1,6 @@
 # Projeto Todo List
 
-Esse projeto foi feito no segundo bloco avaliativo de ensino do curso de desenvolvimento web fullstack da Trybe, ultilizando se de tecnologias como:
+Esse projeto foi feito como avaliação de ensino do curso de desenvolvimento web fullstack da Trybe, ultilizando se de tecnologias como:
 
 #### HTML 5
 #### CSS 3
